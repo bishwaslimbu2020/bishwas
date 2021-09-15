@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bishwas Limbu</title>
+    <link rel="stylesheet" href="sass/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header id="top-nav">
+      <div class="nav-menu row">
+        <div class="menus">
+          <div class="left-menu">
+            <a href="index.html"><img src="./images/logo.svg" /></a>
+          </div>
+          <div class="right-menu" onclick="openMenu()" class="x-button">
+            &#9776;
+          </div>
+        </div>
+        <!--menus ends-->
+      </div>
+      <!--row-->
+      <div class="sidenav" id="sidenav">
+        <a href="javascript:void(0)" onclick="closeMenu()" class="x-button"
+          >&times</a
+        >
+        <a href="index.html"><i class="fas fa-home"></i> Home</a>
+        <a href="about.html"><i class="fas fa-user"></i> About</a>
+        <a href="work.html"><i class="fas fa-briefcase"></i> Work</a>
+        <a href="contact.html"><i class="fas fa-address-book"></i> Contact</a>
+        <a href="gallery.html"><i class="fas fa-images"></i> Gallery</a>
+        <a href="documents.html"><i class="fas fa-file-alt"></i> Download CV</a>
+      </div>
+      <!--side nav ends-->
+    </header>
+    <section class="contact row">
+      <div class="left-contact"></div>
+      <div class="right-contact">
+        <h1>Contact</h1>
+        <h3>
+          Please reach me at 07312688250. If you can't reach me on the phone,
+          it's because I'm at work, preparing meals for the customers. You can
+          text me or email me at limbubishwas@gmail.com. I'll do my best to
+          contact you.
+        </h3>
+      </div>
+    </section>
+
+    <footer>
+      <div class="row">
+        <ul>
+          <li>
+            <a href="https://github.com/" target="_blank">
+              <i class="fab fa-github-square fa-lg"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/" target="_blank">
+              <i class="fab fa-instagram-square fa-lg"></i>
+            </a>
+          </li>
+          <li>
+            <i class="fas fa-envelope fa-lg"></i>
+            <span class="footer-tooltip">limbubishwas@gmail.com</span>
+          </li>
+          <li>
+            <i class="fas fa-phone fa-lg"></i>
+            <span class="footer-tooltip">07312688250</span>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

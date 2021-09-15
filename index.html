@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bishwas Limbu</title>
+    <link rel="stylesheet" href="sass/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header id="top-nav">
+      <div class="nav-menu row">
+        <div class="menus">
+          <div class="left-menu">
+            <a href="index.html"><img src="./images/logo.svg" /></a>
+          </div>
+          <div class="right-menu" onclick="openMenu()">&#9776;</div>
+        </div>
+        <!--menus ends-->
+      </div>
+      <!--row-->
+      <div class="sidenav" id="sidenav">
+        <a href="javascript:void(0)" onclick="closeMenu()" class="x-button"
+          >&times</a
+        >
+        <a href="index.html"><i class="fas fa-home"></i> Home</a>
+        <a href="about.html"><i class="fas fa-user"></i> About</a>
+        <a href="work.html"><i class="fas fa-briefcase"></i> Work</a>
+        <a href="contact.html"><i class="fas fa-address-book"></i> Contact</a>
+        <a href="gallery.html"><i class="fas fa-images"></i> Gallery</a>
+        <a href="documents.html"><i class="fas fa-file-alt"></i> Download CV</a>
+      </div>
+      <!--side nav ends-->
+      <section class="banner row">
+        <div class="left-banner"></div>
+        <div class="right-banner">
+          <h1>Welcome to my Website</h1>
+          <h4 class="personal-desc">
+            Hello! My name is Bishwas Limbu. I am a Frontend Developer with
+            Animation background. I can animate, code, and occasionally design
+            ui/ux elements.
+          </h4>
+          <a href="work.html"><button>my works</button></a>
+        </div>
+      </section>
+    </header>
+
+    <footer>
+      <div class="row">
+        <ul>
+          <li>
+            <a href="https://github.com/" target="_blank">
+              <i class="fab fa-github-square fa-lg"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/" target="_blank">
+              <i class="fab fa-instagram-square fa-lg"></i>
+            </a>
+          </li>
+          <li>
+            <i class="fas fa-envelope fa-lg"></i>
+            <span class="footer-tooltip">limbubishwas@gmail.com</span>
+          </li>
+          <li>
+            <i class="fas fa-phone fa-lg"></i>
+            <span class="footer-tooltip">07312688250</span>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

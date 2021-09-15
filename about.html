@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bishwas Limbu</title>
+    <link rel="stylesheet" href="sass/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header id="top-nav">
+      <div class="nav-menu row">
+        <div class="menus">
+          <div class="left-menu">
+            <a href="index.html"><img src="./images/logo.svg" /></a>
+          </div>
+          <div class="right-menu" onclick="openMenu()">&#9776;</div>
+        </div>
+        <!--menus ends-->
+      </div>
+      <!--row-->
+      <div class="sidenav" id="sidenav">
+        <a href="javascript:void(0)" onclick="closeMenu()" class="x-button"
+          >&times</a
+        >
+        <a href="index.html"><i class="fas fa-home"></i> Home</a>
+        <a href="about.html"><i class="fas fa-user"></i> About</a>
+        <a href="work.html"><i class="fas fa-briefcase"></i> Work</a>
+        <a href="contact.html"><i class="fas fa-address-book"></i> Contact</a>
+        <a href="gallery.html"><i class="fas fa-images"></i> Gallery</a>
+        <a href="documents.html"><i class="fas fa-file-alt"></i> Download CV</a>
+      </div>
+      <!--side nav ends-->
+    </header>
+    <section id="about">
+      <div class="row">
+        <div class="about-main">
+          <div class="about-left"><img src="images/profile.jpg" /></div>
+          <div class="about-right">
+            <h1>about me</h1>
+            <p class="card-para-mb">
+              My name is Bishwas Limbu. I was born on 18th October 1987. I am
+              originally from Nepal but I have been residing in Cwmbran, South
+              Wales since 2008.
+            </p>
+
+            <p class="card-para-mb">
+              I graduated from the University of South Wales with a bachelor's
+              and master's degree in Animation (Hons). Despite this, I have
+              never applied for a position in the Animation industry. Thanks to
+              my friend who exposed me to the world of Web development.
+            </p>
+            <p class="card-para-mb">
+              I started coding late, but sometimes it's better to start late
+              than never. One day, I observed my friend coding on his laptop
+              which piqued my interest in coding. Ever since, I have not looked
+              back. HTML, CSS and Javascript are my bread and butter. During my
+              internship, though, I worked on a project using Bootstrap. I also
+              have a fantastic eye for design. Recently, I've been gravitating
+              toward React JS. In the next two years, I would love to see myself
+              as a full stack developer or MERN developer.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="row">
+        <ul>
+          <li>
+            <a href="https://github.com/" target="_blank">
+              <i class="fab fa-github-square fa-lg"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/" target="_blank">
+              <i class="fab fa-instagram-square fa-lg"></i>
+            </a>
+          </li>
+          <li>
+            <i class="fas fa-envelope fa-lg"></i>
+            <span class="footer-tooltip">limbubishwas@gmail.com</span>
+          </li>
+          <li>
+            <i class="fas fa-phone fa-lg"></i>
+            <span class="footer-tooltip">07312688250</span>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

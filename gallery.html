@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bishwas Limbu</title>
+    <link rel="stylesheet" href="sass/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css"
+    />
+  </head>
+  <body>
+    <header id="top-nav">
+      <div class="nav-menu row">
+        <div class="menus">
+          <div class="left-menu">
+            <a href="index.html"><img src="./images/logo.svg" /></a>
+          </div>
+          <div class="right-menu" onclick="openMenu()">&#9776;</div>
+        </div>
+        <!--menus ends-->
+      </div>
+      <!--row-->
+      <div class="sidenav" id="sidenav">
+        <a href="javascript:void(0)" onclick="closeMenu()" class="x-button"
+          >&times</a
+        >
+        <a href="index.html"><i class="fas fa-home"></i> Home</a>
+        <a href="about.html"><i class="fas fa-user"></i> About</a>
+        <a href="work.html"><i class="fas fa-briefcase"></i> Work</a>
+        <a href="contact.html"><i class="fas fa-address-book"></i> Contact</a>
+        <a href="gallery.html"><i class="fas fa-images"></i> Gallery</a>
+        <a href="documents.html"><i class="fas fa-file-alt"></i> Download CV</a>
+      </div>
+      <!--side nav ends-->
+    </header>
+
+    <section id="gallery">
+      <div class="row">
+        <h1>Gallery</h1>
+        <div class="photo-gallery">
+          <a href="images/charcoal.jpg" class="photo-1">
+            <img src="images/charcoal.jpg" />
+          </a>
+          <a href="images/ronaldo.jpg" class="photo-2">
+            <img src="images/ronaldo.jpg" />
+          </a>
+          <a href="images/woman.jpg" class="photo-3">
+            <img src="images/woman.jpg" />
+          </a>
+          <a href="images/painting.jpg" class="photo-4">
+            <img src="images/painting.jpg" />
+          </a>
+          <a href="images/frog.jpg" class="photo-5">
+            <img src="images/frog.jpg" />
+          </a>
+          <a href="images/prasha.jpg" class="photo-6">
+            <img src="images/prasha.jpg" />
+          </a>
+          <a href="images/hari.jpg" class="photo-7">
+            <img src="images/hari.jpg" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="row">
+        <ul>
+          <li>
+            <a href="https://github.com/" target="_blank">
+              <i class="fab fa-github-square fa-lg"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/" target="_blank">
+              <i class="fab fa-instagram-square fa-lg"></i>
+            </a>
+          </li>
+          <li>
+            <i class="fas fa-envelope fa-lg"></i>
+            <span class="footer-tooltip">limbubishwas@gmail.com</span>
+          </li>
+          <li>
+            <i class="fas fa-phone fa-lg"></i>
+            <span class="footer-tooltip">07312688250</span>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+    <script>
+      lightGallery(document.querySelector(".photo-gallery"));
+    </script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
